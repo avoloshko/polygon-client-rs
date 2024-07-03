@@ -957,7 +957,7 @@ pub struct StockEquitiesDailyOpenCloseResponse {
 #[derive(Clone, Deserialize, Debug)]
 pub struct StockEquitiesAggregates {
     pub T: Option<String>,
-    pub av: Option<u64>,
+    pub av: Option<f64>,
     pub c: f64,
     pub h: f64,
     pub l: f64,
